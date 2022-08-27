@@ -1,13 +1,21 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const palidrome=word.split("");
+  const reversed=palidrome.reverse().join("")
+if (word===reversed){
+  return true
+}else{
+  return false
+}
 }
 
 /* 
-  Add your pseudocode here
+  if word is palidrome return true 
+  else return false
 */
 
 /*
-  Add written explanation of your solution here
+  a function that takes a word and return true if that word is read the same forward and backwards
+  and return false if it cant 
 */
 
 // You can run `node index.js` to view these console logs
